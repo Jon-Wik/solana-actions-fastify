@@ -29,9 +29,24 @@
   "prettier": "@ardasevinc/prettier-config",
   "devDependencies": {
     "@ardasevinc/prettier-config": "^0.1.4",
+    "@types/node": "^20.14.9",
     "concurrently": "^8.2.2",
     "nodemon": "^3.1.4",
+    "pino-pretty": "^11.2.1",
     "tsc-alias": "^1.8.10",
     "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@fastify/env": "^4.4.0",
+    "@fastify/sensible": "^5.6.0",
+    "@fastify/type-provider-typebox": "^4.0.0",
+    "@sinclair/typebox": "^0.32.34",
+    "dotenv": "^16.4.5",
+    "env-schema": "^6.0.0",
+    "fastify": "^4.28.0",
+    "fastify-graceful-shutdown": "^3.5.3",
+    "fastify-plugin": "^4.5.1",
+    "pino": "^9.2.0",
+    "rimraf": "^5.0.7"
   }
 }
